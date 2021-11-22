@@ -1,0 +1,87 @@
+body{
+    background-image: url(https://c.wallhere.com/photos/8b/4e/1440x900_px_digital_art_Super_Mario_video_games-716745.jpg!d);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-bonus{
+    max-width: 1200px;
+    margin: 100px auto;
+}
+
+[class*="square-"] {
+    height: 100px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.square-brown{
+    background-color: rgb(132, 64, 26);
+}
+
+.square-black{
+    background-color: rgb(0, 0, 0);
+}
+
+.square-azure{
+    background-color: rgb(0, 96, 255);
+}
+
+.square-mediumbrown{
+    background-color: rgb(255, 189, 113);
+}
+
+.square-red{
+    background-color: rgb(255, 0, 0);
+}
+
+.square-yellow{
+    background-color: rgb(255, 255, 0);
+}
+
+/* OFFSET RIGHT */
+
+/* OFFSET */
+
+.col-offset-right-1{
+    margin-right: calc((100% / 12) * 1);
+}
+
+.col-offset-right-2{
+    margin-right: calc((100% / 12) * 2);
+}
+
+.col-offset-right-3{
+    margin-right: calc((100% / 12) * 3);
+}
+
+.col-offset-right-4{
+    margin-right: calc((100% / 12) * 4);
+}
+
+.col-offset-right-5{
+    margin-right: calc((100% / 12) * 5);
+}
+
+.col-offset-right-6{
+    margin-right: calc((100% / 12) * 6);
+}
+
+.col-offset-right-7{
+    margin-right: calc((100% / 12) * 7);
+}
+
+.col-offset-right-8{
+    margin-right: calc((100% / 12) * 8);
+}
+
+.col-offset-right-9{
+    margin-right: calc((100% / 12) * 9);
+}
+
+.col-offset-right-10{
+    margin-right: calc((100% / 12) * 10);
+}
+
+.col-offset-right-11{
+    margin-right: calc((100% / 12) * 11);
+}
