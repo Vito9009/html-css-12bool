@@ -6,7 +6,7 @@
 
 .container{
     max-width: 1170px;
-    margin: 0 auto;
+    margin: 0 auto 20px;
 }
 
 .row{
@@ -15,7 +15,7 @@
     flex-wrap: wrap;
 }
 
-/*REGOLE GENERALI FRQAMEWORK*/
+/*REGOLE GENERALI FRAMEWORK*/
 
 /* COLONNE */
 
