@@ -15,18 +15,6 @@
     flex-wrap: wrap;
 }
 
-.align-top{
-    align-self: flex-start;
-}
-
-.align-middle{
-    align-self: center;
-}
-
-.align-bottom{
-    align-self: flex-end;
-}
-
 /*REGOLE GENERALI FRAMEWORK*/
 
 /* COLONNE */
