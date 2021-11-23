@@ -15,23 +15,16 @@
     flex-wrap: wrap;
 }
 
-[class*="col-"] {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.align-top{
-    align-self: flex-start;
+.align-start{
+    align-items: flex-start;
 }
 
 .align-middle{
-    align-self: center;
+    align-items: center;
 }
 
-.align-bottom{
-    align-self: flex-end;
+.align-end{
+    align-items: flex-end;
 }
 
 .space-around{
@@ -161,6 +154,11 @@
 /*MEDIA QUERY SMALL*/
 
 @media screen and (min-width: 576px) {
+
+.container{
+    max-width: 550px;
+}
+    
     /* COLONNE SMALL */
 
 .col-sm-1{
@@ -273,6 +271,11 @@
 /*MEDIA QUERY MEDIUM*/
 
 @media screen and (min-width: 768px) {
+
+.container{
+    max-width: 740px;
+}
+    
     /* COLONNE MEDIUM */
 
 .col-md-1{
@@ -385,6 +388,11 @@
 /*MEDIA QUERY LARGE*/
 
 @media screen and (min-width: 992px) {
+
+.container{
+    max-width: 970px;
+}
+    
     /* COLONNE LARGE */
 
 .col-lg-1{
@@ -497,6 +505,11 @@
 /*MEDIA QUERY EXTRA LARGE*/
 
 @media screen and (min-width: 1200px) {
+
+.container{
+    max-width: 1150px;
+}
+    
     /* COLONNE EXTRA LARGE */
 
 .col-xl-1{
@@ -609,6 +622,11 @@
 /*MEDIA QUERY EXTRA EXTRA LARGE*/
 
 @media screen and (min-width: 1400px) {
+
+.container{
+    max-width: 1350px;
+}
+    
     /* COLONNE EXTRA EXTRA LARGE */
 
 .col-xxl-1{
